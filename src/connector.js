@@ -1,4 +1,4 @@
-const mongoURI = "mongodb+srv://shumsd145:shubhamsh@cluster0-zsxx7.mongodb.net/test?retryWrites=true&w=majority"
+const mongoURI = "mongodb://localhost:27017" + "/todo"
 
 let mongoose = require('mongoose');
 const { todoSchema } = require('./schema');
